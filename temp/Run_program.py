@@ -1,4 +1,4 @@
-from Code import myApp as myApp
+import myApp as myApp
 from time import perf_counter
 
 inputDict = dict()

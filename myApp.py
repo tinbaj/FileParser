@@ -5,7 +5,7 @@ This is the file which contains the main function
 import sys
 
 print(sys.path)
-import Code.ReadFile as ReadFile
+import ReadFile as ReadFile
 import Packages
 
 
