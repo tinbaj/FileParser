@@ -1,5 +1,5 @@
 import collections
-from Packages import sv,LoggerDetails,MyError as UserException
+from Packages import sv,LoggerDetails
 
 
 class Utilities:
@@ -157,7 +157,7 @@ class Utilities:
         if Mandatory and str(Mandatory).upper() == 'Y':
             if not keyValue:
                 Utilities.log.error('{0} is not provided in the input dictionary'.format(key))
-                Utilities.log.error(UserException.MyError.__repr__(UserException.MyError('InputNotDefined','Value not Defined for Input: {0}'.format(key))))
+                Utilities.log.error('InputNotDefined'+('Value not Defined for Input: {0}'.format(key)))
                 raise ValueError('{0} is not provided in the input dictionary'.format(key))
         if Utilities.log.getEffectiveLevel() == sv.XL_DEBUG:
             Utilities.log.debug('{0} : {1}'.format(key,keyValue))
