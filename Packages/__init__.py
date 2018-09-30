@@ -1,2 +1,4 @@
-from Config import StaticVariables as sv,LoggerDetails as logger
-from UtilFunctions import Utilities, MyError
+from .Config import StaticVariables as sv
+from .Config.LoggerDetails import LoggerDetails
+from .UtilFunctions import Utilities
+from .UtilFunctions.Exceptions import MyError
