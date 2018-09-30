@@ -2,8 +2,10 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/Code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/logs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Packages/Config" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/UtilFunctions" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="inheritedJdk" />
