@@ -1,6 +1,5 @@
 import collections
-from Packages.Config import sv,LoggerDetails
-from Packages.UtilFunctions import Exceptions as UserException
+from  Packages import sv,LoggerDetails,UserException
 
 
 class Utilities:
