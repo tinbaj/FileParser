@@ -10,7 +10,8 @@ class FileParser(Resource):
         if fileType == 'TXT':
             request_data = request.get_json()
             request_data["funcName"] = fileType
-            retval = myApp.myApp.main(myApp.myApp(), **request_data)
+            #retval = myApp.myApp.main(myApp.myApp(), **request_data)
+            retval = request_data
             print("retval: ",retval)
             return retval
         elif fileType == 'XML':
